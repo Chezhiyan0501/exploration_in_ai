@@ -1,30 +1,88 @@
-# Exploration in Artificial Intelligence — First 8 Lab Programs
+# Exploration in Artificial Intelligence (EAI) — Lab Programs
 
-Python programs based on the first eight exercises/code sections in the CIT Exploration in Artificial Intelligence lab manual.
+A collection of the **first 8 Python programs** from the Exploration in Artificial Intelligence lab work at Chennai Institute of Technology (CIT).
 
-## Programs
-1. Student Marks, Percentage, Grade and Academic Performance
-2. Electricity Billing System Using Conditional Statements and Loops
-3. Menu-Driven Student Information Management
-4. Student Record Management Using Lists, Tuples, Dictionaries, Files and CSV
-5. IoT Sensor Data Analysis Using NumPy
-6. Analysis of Student Dataset Using Pandas Series and DataFrames
-7. Data Cleaning and Exploratory Data Analysis Using Pandas
-8. CSV Data Cleaning and Exploratory Data Analysis
+These programs cover beginner-friendly Python concepts, data handling, NumPy, Pandas, file operations, and exploratory data analysis.
 
-## Requirements
-- Python 3
-- NumPy (Program 5)
-- Pandas (Programs 6–8)
+## 📚 Programs Included
 
-Install libraries if needed:
+| No. | Program | Concepts Covered |
+|---|---|---|
+| 01 | Student Marks, Percentage & Grade | Input, loops, arithmetic, conditional statements |
+| 02 | Electricity Billing System | Functions, conditions, loops, billing calculations |
+| 03 | Menu-Driven Student Management | Dictionaries, functions, menu loops, CRUD operations |
+| 04 | Student Records & CSV Files | Lists, tuples, dictionaries, text files, CSV |
+| 05 | IoT Sensor Data Analysis | NumPy arrays, statistical calculations, filtering |
+| 06 | Pandas Series & DataFrame | Series, DataFrames, indexing, filtering, statistics |
+| 07 | Data Cleaning & EDA | Missing values, duplicates, descriptive statistics, grouping |
+| 08 | CSV Data Cleaning & EDA | CSV reading/writing, data cleaning, analysis |
+
+## 🗂️ Repository Structure
+
+```text
+exploration_in_ai/
+├── 01_student_marks_grade.py
+├── 02_electricity_billing.py
+├── 03_menu_student_management.py
+├── 04_student_records_files_csv.py
+├── 05_iot_sensor_numpy.py
+├── 06_pandas_series_dataframe.py
+├── 07_pandas_data_cleaning_eda.py
+├── 08_csv_data_cleaning_eda.py
+└── README.md
+```
+
+## ⚙️ Requirements
+
+- Python 3.x
+- NumPy
+- Pandas
+
+Install the required libraries:
+
 ```bash
 pip install numpy pandas
 ```
 
-Run a program:
+> Programs 1–4 use Python's built-in features. Program 5 requires NumPy, and Programs 6–8 require Pandas.
+
+## ▶️ How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Chezhiyan0501/exploration_in_ai.git
+cd exploration_in_ai
+```
+
+Run any program using Python. For example:
+
 ```bash
 python 01_student_marks_grade.py
 ```
 
-Program 8 creates `students1.csv` locally before loading and analyzing it. Program 4 creates `students.txt` and `students.csv` locally.
+Replace the filename with the program you want to execute.
+
+## 📄 Generated Files
+
+Some programs create files while running:
+
+- **Program 4:** `students.txt` and `students.csv`
+- **Program 8:** `students1.csv`
+
+These files are generated in the current working directory.
+
+## 🎯 Learning Objectives
+
+- Practice Python fundamentals and control flow.
+- Use functions and data structures to organize information.
+- Read and write text and CSV files.
+- Perform numerical analysis using NumPy.
+- Work with Pandas Series and DataFrames.
+- Clean datasets and perform basic exploratory data analysis (EDA).
+
+---
+
+**Course/Lab:** Exploration in Artificial Intelligence  
+**Language:** Python  
+**Programs:** 1–8  
